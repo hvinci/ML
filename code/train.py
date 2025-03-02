@@ -1,3 +1,27 @@
+'''
+Author: hvinci
+Date: 2025-02-25 15:34:31
+LastEditors: hvinci
+LastEditTime: 2025-03-02 23:32:30
+Description: 
+    确保训练集和测试集的特征索引一致。
+
+    精确率 (Precision)：预测为正类的样本中，实际为正类的比例。
+    ​召回率 (Recall)：实际为正类的样本中，预测为正类的比例。
+​    F1 分数 (F1 Score)：精确率和召回率的调和平均值。
+
+    SVM：
+        基于最大间隔分类，寻找一个超平面将不同类别的样本分开。
+        适用于高维数据（如文本分类中的 TF-IDF 特征）。
+        通过核函数处理非线性分类问题
+    贝叶斯：
+        基于贝叶斯定理，假设特征之间相互独立。
+        适用于离散特征（如文本分类中的词频或 TF-IDF 值）。
+        通过计算条件概率来预测类别。
+        
+Copyright (c) 2025 by ${hvinci}, All Rights Reserved. 
+'''
+
 from sklearn.datasets import load_svmlight_file
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC

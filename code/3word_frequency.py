@@ -2,8 +2,8 @@
 Author: hvinci
 Date: 2023-12-19 22:53:55
 LastEditors: hvinci
-LastEditTime: 2023-12-21 23:33:06
-Description: 
+LastEditTime: 2025-03-02 23:21:09
+Description: 统计每个类别中名词的出现频率
 
 Copyright (c) 2023 by ${hvinci}, All Rights Reserved. 
 '''

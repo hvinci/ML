@@ -2,8 +2,12 @@
 Author: hvinci
 Date: 2023-12-19 23:43:27
 LastEditors: hvinci
-LastEditTime: 2023-12-21 23:44:45
+LastEditTime: 2025-03-02 23:27:55
 Description: 
+    ​TF-IDF 值​ 转换为 ​LIBSVM 格式​
+    分别给类别和词汇编号，提取单词和对应的 TF-IDF 值
+    按 LIBSVM 格式
+    LIBSVM 是支持向量机（SVM）等机器学习模型的通用输入格式
 
 Copyright (c) 2023 by ${hvinci}, All Rights Reserved. 
 '''

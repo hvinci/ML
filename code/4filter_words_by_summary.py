@@ -1,3 +1,13 @@
+'''
+Author: hvinci
+Date: 2025-02-25 15:34:30
+LastEditors: hvinci
+LastEditTime: 2025-03-02 23:22:36
+Description: 根据词频筛选词汇
+
+Copyright (c) 2025 by ${hvinci}, All Rights Reserved. 
+'''
+
 import os
 
 def filter_words_by_summary(input_folder, summary_folder, output_folder):

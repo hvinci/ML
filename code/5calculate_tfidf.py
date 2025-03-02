@@ -2,8 +2,11 @@
 Author: hvinci
 Date: 2023-12-19 23:51:37
 LastEditors: hvinci
-LastEditTime: 2023-12-21 23:43:11
+LastEditTime: 2025-03-02 23:33:35
 Description: 
+    TF-词频，一个词在文档中的出现频率
+    IDF-衡量一个词在整个文档集合中的普遍性，作用：降低常见词的重要性，提升关键词的重要性
+    TF-IDF:二者相乘——这样的词通常被认为是文档的关键词
 
 Copyright (c) 2023 by ${hvinci}, All Rights Reserved. 
 '''
